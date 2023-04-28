@@ -3,9 +3,9 @@
 .. image:: https://github.com/rubin-observatory/rtn-010/workflows/CI/badge.svg
    :target: https://github.com/rubin-observatory/rtn-010/actions/
 
-###############################################################################
-Pre-operations Alert Distribution Integration Exercise: Definition and planning
-###############################################################################
+#######################################################
+Pre-operations Alert Distribution Integration Exercises
+#######################################################
 
 RTN-010
 =======
