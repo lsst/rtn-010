@@ -50,6 +50,7 @@ This document describes activities to integrate the Rubin Alert Distribution sys
 
 Community alert brokers provide the public interface to the LSST alert stream and are critical partners for delivering Rubin data to scientists worldwide.
 \citeds{LDM-612} provides an overview of LSST alert distribution and the process through which seven alert brokers were chosen to directly receive the full LSST alert stream.
+Two additional brokers were encouraged to operate downstream.
 
 No Rubin requirements constrain the operations or performance of community alert brokers, so formal verification of the brokers during commissioning is not required.
 Nevertheless both technical and scientific validation are needed prior to the start of Alert Production with LSSTCam.
@@ -59,6 +60,7 @@ Accordingly we are planning a series of pre-operations integration activities to
 \section{Policies}
 
 Only world-public data will be sent to brokers via the Rubin Alert Distribution System, both during the integration activities described here as well as during the main survey.
+Rubin will not place any embargo period on data sent to brokers.
 
 \citeds{RTN-061} describes the prerequisites for releasing the first public LSSTCam alerts to brokers and scientists worldwide.
 This document describes integration activities that will take place prior to that milestone.
@@ -79,14 +81,14 @@ Once we have completed the migration, we will provide a similar facility from th
 
 At this time, we expect to use alerts from the DESC DC2 simulation for this sample stream.
 
-We may also aim to provide ``heartbeat'' alerts from our nightly continuous integration processing that could be used by brokers 
+We will also explore provide ``heartbeat'' alerts from our nightly continuous integration processing that could be used by brokers.
 
 \subsection{Scale and Throughput Testing}
 
-We wish to test the throughput of the Alert Distribution System and downstream network interfaces.
+We intend to test the throughput and latency of the Alert Distribution System and downstream network interfaces.
 During agreed-upon test periods, we will send high volumes of alerts through the Alert Distribution System.
 We will work with broker teams to measure transmission latency with an aim to identifying and removing network bottlenecks.
-While Rubin is required to be able to transmit the full stream to the selected brokers, the network environment beyond the USDF is outside of our control, so such optimizations will be on a best-effort basis.
+While Rubin is required to be able to transmit the full stream out of the USDF, the network environment beyond the USDF is outside of our control, so such optimizations will be on a best-effort basis.
 
 \subsection{First Alert Dress Rehearsal}
 
@@ -96,7 +98,7 @@ Again, we expect this dress rehearsal to use alerts generated from DC2 images.
 \subsection{Communication Channels}
 
 We will provide major updates through \url{http://community.lsst.org}. 
-We will use a private Slack channel in the LSSTC Slack workspace for realtime discussions during major tests.
+We will use a private Slack channel in the LSSTC Slack workspace for realtime discussions during major test campaigns.
 
 \appendix
 % Include all the relevant bib files.
